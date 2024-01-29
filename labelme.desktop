@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=LSAnnotation
+Comment=Image Polygonal Annotation with Python
+Exec=LSAnnotation
+Icon=LSAnnotation
+Terminal=true
+Type=Application
+Categories=Graphics;RasterGraphics;
