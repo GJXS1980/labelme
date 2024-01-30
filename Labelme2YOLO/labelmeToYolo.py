@@ -167,4 +167,4 @@ class ConvertManager(object):
  
 if __name__ == '__main__':
     cm = ConvertManager()
-    cm.start(r'F:\vision_ws\demo\data', r'F:\vision_ws\demo\data')
+    cm.start(r'F:\vision_ws\demo\labelme\data', r'F:\vision_ws\demo\labelme\data')
