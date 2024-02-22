@@ -1,9 +1,9 @@
 <h1 align="center">
-  <img src="labelme/icons/icon.png"><br/>labelme
+  <img src="labelme/icons/icon.png"><br/>LSAnnotation
 </h1>
 
 <h4 align="center">
-  Image Polygonal Annotation with Python
+  使用 Python 的图像多边形注释
 </h4>
 
 <div align="center">
@@ -13,10 +13,10 @@
 </div>
 
 <div align="center">
-  <a href="#starter-guide"><b>Starter Guide</b></a>
-  | <a href="#installation"><b>Installation</b></a>
-  | <a href="#usage"><b>Usage</b></a>
-  | <a href="#examples"><b>Examples</b></a>
+  <a href="#starter-guide"><b>入门指南</b></a>
+  | <a href="#installation"><b>安装</b></a>
+  | <a href="#usage"><b>用法</b></a>
+  | <a href="#examples"><b>示例</b></a>
   | <a href="https://x.com/labelmeai"><b>X/Twitter</b></a>
   <!-- | <a href="https://github.com/wkentaro/labelme/discussions"><b>Community</b></a> -->
   <!-- | <a href="https://www.youtube.com/playlist?list=PLI6LvFw0iflh3o33YYnVIfOpaO0hc5Dzw"><b>Youtube FAQ</b></a> -->
@@ -30,49 +30,49 @@
 
 ## Description
 
-Labelme is a graphical image annotation tool inspired by <http://labelme.csail.mit.edu>.  
-It is written in Python and uses Qt for its graphical interface.
+Labelme 是一个受 <http://labelme.csail.mit.edu> 启发的图形图像注释工具。
+它是用 Python 编写的，并使用 Qt 作为其图形界面。
 
 <img src="examples/instance_segmentation/data_dataset_voc/JPEGImages/2011_000006.jpg" width="19%" /> <img src="examples/instance_segmentation/data_dataset_voc/SegmentationClass/2011_000006.png" width="19%" /> <img src="examples/instance_segmentation/data_dataset_voc/SegmentationClassVisualization/2011_000006.jpg" width="19%" /> <img src="examples/instance_segmentation/data_dataset_voc/SegmentationObject/2011_000006.png" width="19%" /> <img src="examples/instance_segmentation/data_dataset_voc/SegmentationObjectVisualization/2011_000006.jpg" width="19%" />  
-<i>VOC dataset example of instance segmentation.</i>
+<i>实例分割的 VOC 数据集示例。</i>
 
 <img src="examples/semantic_segmentation/.readme/annotation.jpg" width="30%" /> <img src="examples/bbox_detection/.readme/annotation.jpg" width="30%" /> <img src="examples/classification/.readme/annotation_cat.jpg" width="35%" />  
-<i>Other examples (semantic segmentation, bbox detection, and classification).</i>
+<i>其他示例（语义分割、bbox 检测和分类）。</i>
 
 <img src="https://user-images.githubusercontent.com/4310419/47907116-85667800-de82-11e8-83d0-b9f4eb33268f.gif" width="30%" /> <img src="https://user-images.githubusercontent.com/4310419/47922172-57972880-deae-11e8-84f8-e4324a7c856a.gif" width="30%" /> <img src="https://user-images.githubusercontent.com/14256482/46932075-92145f00-d080-11e8-8d09-2162070ae57c.png" width="32%" />  
-<i>Various primitives (polygon, rectangle, circle, line, and point).</i>
+<i>各种基元（多边形、矩形、圆形、直线和点）。</i>
 
 
-## Features
+## 功能
 
-- [x] Image annotation for polygon, rectangle, circle, line and point. ([tutorial](examples/tutorial))
-- [x] Image flag annotation for classification and cleaning. ([#166](https://github.com/wkentaro/labelme/pull/166))
-- [x] Video annotation. ([video annotation](examples/video_annotation))
-- [x] GUI customization (predefined labels / flags, auto-saving, label validation, etc). ([#144](https://github.com/wkentaro/labelme/pull/144))
-- [x] Exporting VOC-format dataset for semantic/instance segmentation. ([semantic segmentation](examples/semantic_segmentation), [instance segmentation](examples/instance_segmentation))
-- [x] Exporting COCO-format dataset for instance segmentation. ([instance segmentation](examples/instance_segmentation))
-
-
-## Starter Guide
-
-If you're new to Labelme, you can get started with [Labelme Starter Guide](https://labelme.gumroad.com/l/starter-guide) (FREE), which contains:
-
-- **Installation guides** for all platforms: Windows, macOS, and Linux 💻
-- **Step-by-step tutorials**: first annotation to editing, exporting, and integrating with other programs 📕
-- **A compilation of valuable resources** for further exploration 🔗.
+- [x] 多边形、矩形、圆形、线和点的图像注释。 ([教程](examples/tutorial))
+- [x] 用于分类和清理的图像标志注释。 ([#166](https://github.com/wkentaro/labelme/pull/166))
+- [x] 视频注释。 ([视频注释](examples/video_annotation))
+- [x] GUI 自定义（预定义的标签/标志、自动保存、标签验证等）。 ([#144](https://github.com/wkentaro/labelme/pull/144))
+- [x] 导出 VOC 格式数据集以进行语义/实例分割。 ([semantic segmentation](examples/semantic_segmentation), [instance segmentation](examples/instance_segmentation))
+- [x] 导出 COCO 格式数据集以进行实例分割。 ([instance segmentation](examples/instance_segmentation))
 
 
-## Installation
+## 入门指南
 
-There are options:
+如果您不熟悉 Labelme，可以开始使用 [Labelme 入门指南](https://labelme.gumroad.com/l/starter-guide) (免费), 其中包含：
 
-- Platform agnostic installation: [Anaconda](#anaconda)
-- Platform specific installation: [Ubuntu](#ubuntu), [macOS](#macos), [Windows](#windows)
-- Pre-build binaries from [the release section](https://github.com/wkentaro/labelme/releases)
+- **适用于所有平台的安装指南：**  Windows, macOS, and Linux 💻
+- **分步教程**: 从第一个注释到编辑、导出和与其他程序 📕 集成
+- **为进一步探索** 🔗 而收集的宝贵资源。
+
+
+## 安装
+
+ 有以下选项：
+
+- 与平台无关的安装: [Anaconda](#anaconda)
+- 特定于平台的安装: [Ubuntu](#ubuntu), [macOS](#macos), [Windows](#windows)
+- 发布部分中的预生成二进制文件 [the release section](https://github.com/wkentaro/labelme/releases)
 
 ### Anaconda
 
-You need install [Anaconda](https://www.continuum.io/downloads), then run below:
+您需要安装 [Anaconda](https://www.continuum.io/downloads), 然后运行以下内容：
 
 ```bash
 # python3
@@ -114,7 +114,7 @@ brew install wkentaro/labelme/labelme  # command line interface
 
 ### Windows
 
-Install [Anaconda](https://www.continuum.io/downloads), then in an Anaconda Prompt run:
+安装 [Anaconda](https://www.continuum.io/downloads), 然后在 Anaconda 提示符中运行：
 
 ```bash
 conda create --name=labelme python=3
@@ -126,10 +126,10 @@ pip install labelme
 ```
 
 
-## Usage
+## 用法
 
-Run `labelme --help` for detail.  
-The annotations are saved as a [JSON](http://www.json.org/) file.
+运行 `labelme --help` 以获取详细信息。 
+注释将另存为 [JSON](http://www.json.org/) 文件。
 
 ```bash
 labelme  # just open gui
@@ -148,30 +148,30 @@ labelme data_annotated/  # Open directory to annotate all images in it
 labelme data_annotated/ --labels labels.txt  # specify label list with a file
 ```
 
-### Command Line Arguments
-- `--output` specifies the location that annotations will be written to. If the location ends with .json, a single annotation will be written to this file. Only one image can be annotated if a location is specified with .json. If the location does not end with .json, the program will assume it is a directory. Annotations will be stored in this directory with a name that corresponds to the image that the annotation was made on.
-- The first time you run labelme, it will create a config file in `~/.labelmerc`. You can edit this file and the changes will be applied the next time that you launch labelme. If you would prefer to use a config file from another location, you can specify this file with the `--config` flag.
-- Without the `--nosortlabels` flag, the program will list labels in alphabetical order. When the program is run with this flag, it will display labels in the order that they are provided.
-- Flags are assigned to an entire image. [Example](examples/classification)
-- Labels are assigned to a single polygon. [Example](examples/bbox_detection)
+### 命令行参数
+- `--output` 指定将写入批注的位置。如果位置以 .json 结尾，则单个批注将写入此文件。如果用 .json 指定位置，则只能对一个图像进行注释。如果该位置不以 .json 结尾，则程序将假定它是一个目录。批注将存储在此目录中，其名称与进行批注的图像相对应。
+- 第一次运行 labelme 时，它会在 `~/.labelmerc`中创建一个配置文件。您可以编辑此文件，更改将在您下次启动 labelme 时应用。如果您希望使用其他位置的配置文件，则可以使用 `--config` 标志指定此文件。
+- 如果没有标志 `--nosortlabels` ，程序将按字母顺序列出标签。当程序使用此标志运行时，它将按提供的顺序显示标签。
+- 标志将分配给整个映像。 [示例](examples/classification)
+- 标注将分配给单个多边形。 [示例](examples/bbox_detection)
 
-### FAQ
+### 常见问题
 
-- **How to convert JSON file to numpy array?** See [examples/tutorial](examples/tutorial#convert-to-dataset).
-- **How to load label PNG file?** See [examples/tutorial](examples/tutorial#how-to-load-label-png-file).
-- **How to get annotations for semantic segmentation?** See [examples/semantic_segmentation](examples/semantic_segmentation).
-- **How to get annotations for instance segmentation?** See [examples/instance_segmentation](examples/instance_segmentation).
+- **如何将JSON文件转换为numpy数组？** 请参阅 [示例/教程](examples/tutorial#convert-to-dataset).
+- **如何加载标签PNG文件？** 请参阅 [示例/教程](examples/tutorial#how-to-load-label-png-file).
+- **如何获取语义分割的注释？** 请参阅 [示例/semantic_segmentation](examples/semantic_segmentation).
+- **如何获取实例分割的注解？** 请参阅 [示例/instance_segmentation](examples/instance_segmentation).
 
 
-## Examples
+## 示例
 
-* [Image Classification](examples/classification)
-* [Bounding Box Detection](examples/bbox_detection)
-* [Semantic Segmentation](examples/semantic_segmentation)
-* [Instance Segmentation](examples/instance_segmentation)
-* [Video Annotation](examples/video_annotation)
+* [图像分类](examples/classification)
+* [边界框检测](examples/bbox_detection)
+* [语义分割](examples/semantic_segmentation)
+* [实例细分](examples/instance_segmentation)
+* [视频注释](examples/video_annotation)
 
-## How to develop
+## 如何开发
 
 ```bash
 git clone https://github.com/wkentaro/labelme.git
@@ -184,9 +184,9 @@ pip install -e .
 ```
 
 
-### How to build standalone executable
+### 如何构建独立的可执行文件
 
-Below shows how to build the standalone executable on macOS, Linux and Windows.  
+下面显示了如何在 macOS、Linux 和 Windows 上构建独立的可执行文件。 
 
 ```bash
 # Setup conda
@@ -202,10 +202,10 @@ dist/labelme --version
 ```
 
 
-### How to contribute
+### 如何贡献
 
-Make sure below test passes on your environment.  
-See `.github/workflows/ci.yml` for more detail.
+请确保以下测试在您的环境中通过。 
+有关详细信息，请参阅 `.github/workflows/ci.yml` 。
 
 ```bash
 pip install -r requirements-dev.txt
@@ -216,6 +216,6 @@ MPLBACKEND='agg' pytest -vsx tests/
 ```
 
 
-## Acknowledgement
+## 确认
 
-This repo is the fork of [mpitid/pylabelme](https://github.com/mpitid/pylabelme).
+这个 repo 是 [mpitid/pylabelme](https://github.com/mpitid/pylabelme) 的分支。
